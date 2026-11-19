@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-caresync-proj"
 		},
+		"LS_AzureSqlDatabase_password": {
+			"value": ""
+		},
 		"LS_ADLS_properties_typeProperties_url": {
 			"value": "https://caresyncprojectstorage.dfs.core.windows.net/"
 		},
@@ -19,6 +22,15 @@
 		},
 		"LS_PostgreSql_properties_typeProperties_username": {
 			"value": "neondb_owner"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "caresyncp.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "sql-db-caresync"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "krishsqladmin"
 		}
 	}
 }

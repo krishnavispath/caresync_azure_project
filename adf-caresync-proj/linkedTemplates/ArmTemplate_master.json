@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf-caresync-proj"
 		},
+		"LS_AzureSqlDatabase_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LS_AzureSqlDatabase'"
+		},
 		"LS_ADLS_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://caresyncprojectstorage.dfs.core.windows.net/"
@@ -26,6 +30,18 @@
 		"LS_PostgreSql_properties_typeProperties_username": {
 			"type": "string",
 			"defaultValue": "neondb_owner"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "caresyncp.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "sql-db-caresync"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "krishsqladmin"
 		},
 		"containerUri": {
 			"type": "string",
@@ -54,11 +70,23 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"LS_AzureSqlDatabase_password": {
+						"value": "[parameters('LS_AzureSqlDatabase_password')]"
+					},
 					"LS_ADLS_properties_typeProperties_url": {
 						"value": "[parameters('LS_ADLS_properties_typeProperties_url')]"
 					},
 					"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
 						"value": "[parameters('LS_AzureKeyVault_properties_typeProperties_baseUrl')]"
+					},
+					"LS_AzureSqlDatabase_properties_typeProperties_server": {
+						"value": "[parameters('LS_AzureSqlDatabase_properties_typeProperties_server')]"
+					},
+					"LS_AzureSqlDatabase_properties_typeProperties_database": {
+						"value": "[parameters('LS_AzureSqlDatabase_properties_typeProperties_database')]"
+					},
+					"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+						"value": "[parameters('LS_AzureSqlDatabase_properties_typeProperties_userName')]"
 					},
 					"LS_PostgreSql_properties_typeProperties_server": {
 						"value": "[parameters('LS_PostgreSql_properties_typeProperties_server')]"
