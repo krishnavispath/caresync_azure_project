@@ -19,18 +19,6 @@
 			"type": "string",
 			"defaultValue": "https://caresync-k.vault.azure.net/"
 		},
-		"LS_PostgreSql_properties_typeProperties_server": {
-			"type": "string",
-			"defaultValue": "ep-gentle-boat-bijdbtpo-pooler.c-5.ap-southeast-1.aws.neon.tech"
-		},
-		"LS_PostgreSql_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "neondb"
-		},
-		"LS_PostgreSql_properties_typeProperties_username": {
-			"type": "string",
-			"defaultValue": "neondb_owner"
-		},
 		"LS_AzureSqlDatabase_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "caresyncp.database.windows.net"
@@ -42,6 +30,18 @@
 		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "krishsqladmin"
+		},
+		"LS_PostgreSql_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "ep-gentle-boat-bijdbtpo-pooler.c-5.ap-southeast-1.aws.neon.tech"
+		},
+		"LS_PostgreSql_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "neondb"
+		},
+		"LS_PostgreSql_properties_typeProperties_username": {
+			"type": "string",
+			"defaultValue": "neondb_owner"
 		},
 		"containerUri": {
 			"type": "string",
