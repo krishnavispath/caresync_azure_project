@@ -11,6 +11,9 @@
 		"LS_ADLS_properties_typeProperties_url": {
 			"value": "https://caresyncprojectstorage.dfs.core.windows.net/"
 		},
+		"LS_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1120-170927-3etgey6z"
+		},
 		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
 			"value": "https://caresync-k.vault.azure.net/"
 		},
@@ -31,9 +34,6 @@
 		},
 		"LS_PostgreSql_properties_typeProperties_username": {
 			"value": "neondb_owner"
-		},
-		"LS_AzureDatabricks_properties_typeProperties_existingClusterId": {
-			"value": "1120-170927-3etgey6z"
 		},
 		"containerUri": {
 			"value": ""
